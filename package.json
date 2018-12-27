@@ -20,6 +20,7 @@
     "clean": "rm -rf dist/*",
     "dist": "npm-run-all clean build",
     "test": "jest --maxWorkers=4",
+    "test:coverage": "jest --maxWorkers=4 --coverage",
     "prepublish": "npm run dist"
   },
   "dependencies": {},

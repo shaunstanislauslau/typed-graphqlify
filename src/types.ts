@@ -16,7 +16,7 @@ function oneOf<T extends {}>(e: T): keyof T {
   return Object.keys(e)[0] as keyof T
 }
 
-export enum TypeFlags {
+enum TypeFlags {
   String = 'String',
   Number = 'Number',
   Boolean = 'Boolean',
